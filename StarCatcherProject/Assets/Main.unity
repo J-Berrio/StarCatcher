@@ -118,6 +118,8 @@ MonoBehaviour:
   speed: 10
   gravity: 3
   jumpSpeed: 30
+  slideDuration: 100
+  slideTime: 0.1
 --- !u!143 &301413327
 CharacterController:
   m_ObjectHideFlags: 0
@@ -177,8 +179,7 @@ Transform:
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children:
-  - {fileID: 398542455}
+  m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
 --- !u!1 &316220138
@@ -268,6 +269,8 @@ GameObject:
   - 92: {fileID: 398542453}
   - 124: {fileID: 398542452}
   - 81: {fileID: 398542451}
+  - 54: {fileID: 398542456}
+  - 114: {fileID: 398542457}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -340,8 +343,35 @@ Transform:
   m_LocalPosition: {x: 0, y: 0, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 301413330}
-  m_RootOrder: 0
+  m_Father: {fileID: 0}
+  m_RootOrder: 3
+--- !u!54 &398542456
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 398542450}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &398542457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 398542450}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd64ec2790a9943e0890045ffedf4874, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 40
 --- !u!1 &856557558
 GameObject:
   m_ObjectHideFlags: 0
