@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+//The above is a namespace! When using Unity, we draw from the Unity namespace and libraries
 
 public class MovePlayer : MonoBehaviour 
 {
@@ -18,6 +19,7 @@ public class MovePlayer : MonoBehaviour
 	public float slideTime = 0.1f;
 
 	IEnumerator Slide()
+	//The above is a function
 	{
 		//set a temp var to the value of slideDuration
 		int durationTemp = slideDuration;
@@ -42,16 +44,27 @@ public class MovePlayer : MonoBehaviour
 		slideDuration = durationTemp;
 	}
 
-	void Start () 
+	void Start ()
+	//Also a function
 	{
 		//to 'find' the cc
 		controller = GetComponent<CharacterController> ();
+		//GetComponent is basically a function, the () designate it as such
 	}
 
 	void Update()
+
+	/*
+	 * this is a multiline comment
+	 * basically update sucks
+	 * because it will eventually make things slow and stuff like that
+	 * one day, I'll learn scripting well enough to avoid update #LifeGoals
+	*/
+
 	{
 		//input to be able to jump
 		if (Input.GetKeyDown (KeyCode.Space))
+			//Input also works as a function
 		{
 			if (controller.isGrounded) 
 			{
