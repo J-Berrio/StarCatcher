@@ -14,6 +14,34 @@ public class MovePlayer : MonoBehaviour
 	int AlowedJumps = 1; 
 	int JumpCounter = 0;
 
+	public int slideDuration = 100;
+	public float slideTime = 0.1f;
+
+	IEnumerator Slide()
+	{
+		//set a temp var to the value of slideDuration
+		int durationTemp = slideDuration;
+
+		float speedTemp = speed;
+		speed += speed;
+		//while loop runs "while" the slideDuration is greater than 0
+		while (slideDuration > 0) 
+		{
+			//Decrement the slideDuration
+			slideDuration--;
+			//yield "holds" the coroutine
+			//return "sends" to the coroutine to do an operation while yielding
+			//new creates an instanceof an object
+			//waitforseconds is an object that waits for duration time
+			yield return new WaitForSeconds (slideTime);
+
+
+		}
+
+		speed = speedTemp;
+		slideDuration = durationTemp;
+	}
+
 	void Start () 
 	{
 		//to 'find' the cc
@@ -46,5 +74,13 @@ public class MovePlayer : MonoBehaviour
 		//to access controller & make it move character in seconds/not frames
 		controller.Move (tempPosition * Time.deltaTime);
 
+		if(Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.S))
+		{
+			StartCoroutine (Slide ());	
+		}
+		if(Input.GetKey(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.S))
+		{
+			StartCoroutine (Slide ());	
+		}
 	}
 }
