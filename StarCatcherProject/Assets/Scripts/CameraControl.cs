@@ -3,13 +3,8 @@ using System.Collections;
 
 public class CameraControl : MonoBehaviour
 {
-	public float speed = 40f;
-	private Rigidbody rb;
-
-	void Start()
-	{
-		rb = GetComponent<Rigidbody>();
-	}
+	public float speed = 1f;
+	private Vector3 tempPos;
 
 	void Update () 
 	{
@@ -18,8 +13,7 @@ public class CameraControl : MonoBehaviour
 
 	void MoveCamera()
 	{
-		Vector3 movement = new Vector3 (1f, 0.0f, 0f);
-		rb.AddForce (movement * speed * Time.deltaTime);
+		tempPos.x = speed * Time.deltaTime;
+		transform.Translate (tempPos);
 	}
 }
-
