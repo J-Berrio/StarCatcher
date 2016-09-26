@@ -4,11 +4,10 @@ using System.Collections.Generic;
 
 public class RecycleComponent : MonoBehaviour 
 {
-	//public float speed = 2f;
 	private Vector3 tempPos;
 	private Vector3 newLocation;
 
-/*	private int i;
+	private int i;
 	public List<Recycler> recycleAbleList;
 
 	void Start()
@@ -21,21 +20,20 @@ public class RecycleComponent : MonoBehaviour
 	{
 		recycleAbleList.Add(obj);
 	}
-
-*/
+		
 	void OnTriggerEnter ()
 	{
-		//i = Random.Range (0, recycleAbleList.Count);
+		
+		i = Random.Range(0,recycleAbleList.Count -1);
 		newLocation.x = StaticVars.nextSectionPos;
-		transform.localPosition = newLocation; 
-		//recycleAbleList[i].cube.position = newLocation;
+		recycleAbleList[i].cube.position = newLocation;
 		StaticVars.nextSectionPos += StaticVars.distance;
 
-		/*if(i == recycleAbleList.Count -1)
+		if(recycleAbleList.Count > 0)
 		{
-			i++;
+			recycleAbleList.RemoveAt(i);
 		}
-		*/
+
 	}
 
 }

@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 181fc7c6ad32c4c4b84c42105d75df76
-timeCreated: 1474339238
+guid: 1325135c079ca48fd81f3bf655db1258
+timeCreated: 1474662060
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
@@ -10,18 +10,16 @@ ModelImporter:
     100004: polySurface21
     100006: polySurface72
     100008: polySurface74
-    100010: polySurface76
-    100012: polySurface79
+    100010: polySurface77
     400000: //RootNode
     400002: polySurface1
     400004: polySurface21
     400006: polySurface72
     400008: polySurface74
-    400010: polySurface76
-    400012: polySurface79
-    2300000: polySurface79
-    3300000: polySurface79
-    4300000: polySurface79
+    400010: polySurface77
+    2300000: polySurface77
+    3300000: polySurface77
+    4300000: polySurface77
     9500000: //RootNode
   materials:
     importMaterials: 1
