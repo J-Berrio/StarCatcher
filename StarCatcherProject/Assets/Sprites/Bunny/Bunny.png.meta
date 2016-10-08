@@ -1,0 +1,238 @@
+fileFormatVersion: 2
+guid: 97e5da9ec733b48b29ed2394e42d18b6
+timeCreated: 1475628213
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Bunny_0
+    21300002: Bunny_1
+    21300004: Bunny_2
+    21300006: Bunny_3
+    21300008: Bunny_4
+    21300010: Bunny_5
+    21300012: Bunny_6
+    21300014: Bunny_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Bunny_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 14
+        width: 127
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 29.5, y: 31.5}
+        - {x: 12.5, y: 31.5}
+        - {x: 8.5, y: 17.5}
+        - {x: -34.5, y: 22.5}
+        - {x: -42.5, y: 11.5}
+        - {x: -63.5, y: -11.5}
+        - {x: -63.5, y: -25.5}
+        - {x: -37.5, y: -31.5}
+        - {x: 62.5, y: -31.5}
+        - {x: 63.5, y: -29.5}
+        - {x: 63.5, y: -1.5}
+        - {x: 57.5, y: 9.5}
+    - name: Bunny_1
+      rect:
+        serializedVersion: 2
+        x: 174
+        y: 3
+        width: 122
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -48, y: 39.5}
+        - {x: -58, y: 32.5}
+        - {x: -61, y: 14.5}
+        - {x: -61, y: -19.5}
+        - {x: 23, y: -39.5}
+        - {x: 53, y: -39.5}
+        - {x: 56, y: -37.5}
+        - {x: 61, y: -33.5}
+        - {x: 61, y: 17.5}
+        - {x: 37, y: 39.5}
+    - name: Bunny_2
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 0
+        width: 97
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8.5, y: 36.5}
+        - {x: -6.5, y: 36.5}
+        - {x: -8.5, y: 26.5}
+        - {x: -1.5, y: 14.5}
+        - {x: 4.5, y: 9.5}
+        - {x: 3.5, y: 10.5}
+        - {x: -9.5, y: 19.5}
+        - {x: -16.5, y: 23.5}
+        - {x: -26.5, y: 23.5}
+        - {x: -42.5, y: 36.5}
+        - {x: -46.5, y: 36.5}
+        - {x: -48.5, y: 35.5}
+        - {x: -48.5, y: -13.5}
+        - {x: -41.5, y: -36.5}
+        - {x: 39.5, y: -36.5}
+        - {x: 48.5, y: -17.5}
+        - {x: 48.5, y: 9.5}
+        - {x: 46.5, y: 14.5}
+    - name: Bunny_3
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 3
+        width: 88
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34, y: 35}
+        - {x: -44, y: 32}
+        - {x: -44, y: -7}
+        - {x: -21, y: -35}
+        - {x: -14, y: -31}
+        - {x: -9, y: -28}
+        - {x: -13, y: -32}
+        - {x: -13, y: -35}
+        - {x: 35, y: -35}
+        - {x: 44, y: -17}
+        - {x: 44, y: 18}
+        - {x: 20, y: 35}
+    - name: Bunny_4
+      rect:
+        serializedVersion: 2
+        x: 671
+        y: 4
+        width: 87
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -20.5, y: 33.5}
+        - {x: -41.5, y: 22.5}
+        - {x: -43.5, y: 21.5}
+        - {x: -43.5, y: -3.5}
+        - {x: -14.5, y: -33.5}
+        - {x: 15.5, y: -33.5}
+        - {x: 43.5, y: -18.5}
+        - {x: 43.5, y: 12.5}
+        - {x: 1.5, y: 33.5}
+    - name: Bunny_5
+      rect:
+        serializedVersion: 2
+        x: 822
+        y: 2
+        width: 90
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 34}
+        - {x: -32, y: 34}
+        - {x: -44, y: 30}
+        - {x: -45, y: 27}
+        - {x: -45, y: -4}
+        - {x: -33, y: -34}
+        - {x: 35, y: -34}
+        - {x: 45, y: -28}
+        - {x: 45, y: 18}
+    - name: Bunny_6
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 0
+        width: 95
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 10.5, y: 36.5}
+        - {x: -13.5, y: 36.5}
+        - {x: -47.5, y: 24.5}
+        - {x: -47.5, y: -36.5}
+        - {x: -1.5, y: -36.5}
+        - {x: 28.5, y: -23.5}
+        - {x: 47.5, y: -4.5}
+        - {x: 47.5, y: 21.5}
+    - name: Bunny_7
+      rect:
+        serializedVersion: 2
+        x: 1138
+        y: 0
+        width: 102
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32, y: 40.5}
+        - {x: -51, y: 40.5}
+        - {x: -51, y: -40.5}
+        - {x: -29, y: -40.5}
+        - {x: 40, y: -20.5}
+        - {x: 51, y: -6.5}
+        - {x: 51, y: 17.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,21 +1,21 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 public class Boundary : MonoBehaviour
 {
-	//for first collider put destroy object and respawn at beginning. 
-	void Start () 
+	void Start()
 	{
-	
-	}
-	
-	void Update () 
-	{
-	
+		Statics.nextPosition = Statics.startPosition; 
 	}
 
 	void OnTriggerEnter ()
 	{
-		
+		RestartLevel ();
+	}
+
+	public void RestartLevel()
+	{
+		SceneManager.LoadScene (0);
 	}
 }
