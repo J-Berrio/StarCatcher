@@ -8,9 +8,7 @@ public class AddToTerrain : MonoBehaviour
 
 	void Awake () 
 	{
-
 		SendThis (transform);
-	
 	}
 
 	void OnBecameInvisible()

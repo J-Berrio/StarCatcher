@@ -10,7 +10,6 @@ public class RecycleLevel : MonoBehaviour
 	void SendThisHandler(SendToRecycler _r)
 	{
 		recycleList.Add (_r);
-		print (recycleList.Count);
 	}
 
 	void Start()
