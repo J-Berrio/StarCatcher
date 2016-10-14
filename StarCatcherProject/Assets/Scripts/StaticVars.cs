@@ -1,6 +1,5 @@
-﻿
+﻿public class StaticVars
 
-public class StaticVars
 {
 	public static float length = 3.69f;
 	public static float nextPosition = 7.38f;

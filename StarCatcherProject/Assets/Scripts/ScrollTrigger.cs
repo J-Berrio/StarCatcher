@@ -8,7 +8,7 @@ public class ScrollTrigger : MonoBehaviour
 
 	void Update () 
 	{
-		movePos.x = speed*Time.deltaTime;
+		movePos.x = speed * Time.deltaTime;
 		transform.Translate(movePos);
 	}
 }

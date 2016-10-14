@@ -20,7 +20,7 @@ public class ScrollingBackground : MonoBehaviour
 
 	void OnTriggerEnter()
 	{
-		int i = UnityEngine.Random.Range (0, scrollList.Count - 1);
+		int i = UnityEngine.Random.Range (0, scrollList.Count);
 		movePos.x = StaticVars.nextPosition;
 		scrollList [i].transform.position = movePos;
 		scrollList.RemoveAt (i);
