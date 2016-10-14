@@ -8,11 +8,10 @@ public class BushGenerator : MonoBehaviour
 
 	void OnTriggerEnter()
 		{
-		
+		print ("spawn");
 		int spawnIndex = Random.Range(0, spawnLocations.Length);
 		int bushIndex = Random.Range(0, Bushes.Length);
 		Instantiate(Bushes[bushIndex], spawnLocations[spawnIndex].position, spawnLocations[spawnIndex].rotation);
-
 		}
 }
 	
