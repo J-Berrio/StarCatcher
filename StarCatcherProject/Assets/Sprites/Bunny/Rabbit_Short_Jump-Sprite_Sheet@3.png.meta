@@ -1,0 +1,313 @@
+fileFormatVersion: 2
+guid: 75607048fc06047e583550e188b4b212
+timeCreated: 1476559219
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rabbit_Short_Jump-Sprite_Sheet@3_0
+    21300002: Rabbit_Short_Jump-Sprite_Sheet@3_1
+    21300004: Rabbit_Short_Jump-Sprite_Sheet@3_2
+    21300006: Rabbit_Short_Jump-Sprite_Sheet@3_3
+    21300008: Rabbit_Short_Jump-Sprite_Sheet@3_4
+    21300010: Rabbit_Short_Jump-Sprite_Sheet@3_5
+    21300012: Rabbit_Short_Jump-Sprite_Sheet@3_6
+    21300014: Rabbit_Short_Jump-Sprite_Sheet@3_7
+    21300016: Rabbit_Short_Jump-Sprite_Sheet@3_8
+    21300018: Rabbit_Short_Jump-Sprite_Sheet@3_9
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_0
+      rect:
+        serializedVersion: 2
+        x: 956
+        y: 178
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_1
+      rect:
+        serializedVersion: 2
+        x: 1130
+        y: 8
+        width: 246
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -34.081482, y: 103.546326}
+        - {x: -44.081482, y: 97.546326}
+        - {x: -85.08148, y: 22.546326}
+        - {x: -85.08148, y: -91.453674}
+        - {x: -82.08148, y: -102.453674}
+        - {x: -27.081482, y: -102.453674}
+        - {x: 85.91852, y: 2.5463257}
+        - {x: 85.91852, y: 75.546326}
+        - {x: 7.918518, y: 103.546326}
+      - - {x: 69.91852, y: 82.546326}
+        - {x: 69.91852, y: 80.546326}
+        - {x: 71.91852, y: 78.546326}
+        - {x: 72.91852, y: 78.546326}
+        - {x: 75.91852, y: 81.546326}
+        - {x: 74.91852, y: 84.546326}
+        - {x: 71.91852, y: 84.546326}
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_2
+      rect:
+        serializedVersion: 2
+        x: 1511
+        y: 15
+        width: 278
+        height: 255
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 45.562256, y: -49.60064}
+        - {x: 47.562256, y: -43.60064}
+        - {x: 47.562256, y: -35.60064}
+        - {x: 43.562256, y: -30.60064}
+        - {x: 51.562256, y: -27.60064}
+        - {x: 86.562256, y: -22.60064}
+        - {x: 97.562256, y: -7.6006393}
+        - {x: 97.562256, y: 15.399361}
+        - {x: 34.562256, y: 89.39936}
+        - {x: 12.562256, y: 89.39936}
+        - {x: 0.56225586, y: 80.39936}
+        - {x: 4.562256, y: 56.39936}
+        - {x: 9.562256, y: 42.39936}
+        - {x: 18.562256, y: 34.39936}
+        - {x: -43.437744, y: 19.39936}
+        - {x: -96.437744, y: 17.39936}
+        - {x: -96.437744, y: -20.60064}
+        - {x: -83.437744, y: -50.60064}
+        - {x: -53.437744, y: -88.60064}
+        - {x: -37.437744, y: -88.60064}
+        - {x: -29.437744, y: -80.60064}
+        - {x: -31.437744, y: -68.60064}
+        - {x: 36.562256, y: -58.60064}
+      - - {x: 92.562256, y: 25.39936}
+        - {x: 91.562256, y: 23.39936}
+        - {x: 91.562256, y: 20.39936}
+        - {x: 93.562256, y: 19.39936}
+        - {x: 96.562256, y: 19.39936}
+        - {x: 97.562256, y: 20.39936}
+        - {x: 97.562256, y: 25.39936}
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_3
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 21
+        width: 281
+        height: 246
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 56.41211, y: 86.559105}
+        - {x: 49.41211, y: 86.559105}
+        - {x: 26.41211, y: 72.559105}
+        - {x: 23.41211, y: 45.559105}
+        - {x: 23.41211, y: 31.559105}
+        - {x: -15.587891, y: 86.559105}
+        - {x: -57.58789, y: 86.559105}
+        - {x: -97.58789, y: 19.559105}
+        - {x: -97.58789, y: -27.440895}
+        - {x: -81.58789, y: -23.440895}
+        - {x: -77.58789, y: -45.440895}
+        - {x: 6.4121094, y: -85.440895}
+        - {x: 51.41211, y: -85.440895}
+        - {x: 56.41211, y: -79.440895}
+        - {x: 90.41211, y: -50.440895}
+        - {x: 98.41211, y: -43.440895}
+        - {x: 98.41211, y: -6.440895}
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_4
+      rect:
+        serializedVersion: 2
+        x: 2317
+        y: 11
+        width: 273
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 95.354614, y: -23.373802}
+        - {x: 95.354614, y: -1.3738022}
+        - {x: 16.354614, y: 72.6262}
+        - {x: -58.645386, y: 72.6262}
+        - {x: -70.645386, y: 68.6262}
+        - {x: -94.645386, y: 12.626198}
+        - {x: -94.645386, y: -14.373802}
+        - {x: -88.645386, y: -43.373802}
+        - {x: -82.645386, y: -51.373802}
+        - {x: -68.645386, y: -51.373802}
+        - {x: -56.645386, y: -42.373802}
+        - {x: -7.6453857, y: -71.3738}
+        - {x: 38.354614, y: -71.3738}
+        - {x: 44.354614, y: -70.3738}
+        - {x: 37.354614, y: -59.373802}
+        - {x: 33.354614, y: -55.373802}
+        - {x: 87.354614, y: -37.373802}
+      - - {x: 89.354614, y: 7.626198}
+        - {x: 88.354614, y: 5.626198}
+        - {x: 88.354614, y: 2.6261978}
+        - {x: 90.354614, y: 1.6261978}
+        - {x: 93.354614, y: 1.6261978}
+        - {x: 94.354614, y: 2.6261978}
+        - {x: 94.354614, y: 7.626198}
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_5
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 8
+        width: 267
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.453674, y: 51.546326}
+        - {x: -92.453674, y: -3.4536743}
+        - {x: -81.453674, y: -50.453674}
+        - {x: 66.546326, y: -50.453674}
+        - {x: 93.546326, y: -25.453674}
+        - {x: 93.546326, y: 42.546326}
+        - {x: 48.546326, y: 51.546326}
+      - - {x: 77.546326, y: 24.546326}
+        - {x: 79.546326, y: 22.546326}
+        - {x: 82.546326, y: 23.546326}
+        - {x: 82.546326, y: 26.546326}
+        - {x: 80.546326, y: 28.546326}
+        - {x: 77.546326, y: 27.546326}
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_6
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 8
+        width: 270
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -93.64218, y: -16.953674}
+        - {x: -91.64218, y: -19.953674}
+        - {x: -58.64218, y: -46.953674}
+        - {x: 55.35782, y: -46.953674}
+        - {x: 94.35782, y: -21.953674}
+        - {x: 94.35782, y: 40.046326}
+        - {x: -93.64218, y: 40.046326}
+      - - {x: 68.35782, y: 48.046326}
+        - {x: 67.35782, y: 46.046326}
+        - {x: 70.35782, y: 43.046326}
+        - {x: 71.35782, y: 43.046326}
+        - {x: 74.35782, y: 46.046326}
+        - {x: 73.35782, y: 48.046326}
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_7
+      rect:
+        serializedVersion: 2
+        x: 745
+        y: 8
+        width: 252
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 88.50159, y: 45.046326}
+        - {x: 80.50159, y: 57.046326}
+        - {x: -63.498413, y: 57.046326}
+        - {x: -87.49841, y: 50.046326}
+        - {x: -87.49841, y: -21.953674}
+        - {x: -57.498413, y: -55.953674}
+        - {x: 38.501587, y: -55.953674}
+        - {x: 51.501587, y: -52.953674}
+        - {x: 88.50159, y: 24.046326}
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_8
+      rect:
+        serializedVersion: 2
+        x: 2189
+        y: 126
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rabbit_Short_Jump-Sprite_Sheet@3_9
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 9
+        width: 267
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -92.36743, y: 50.739616}
+        - {x: -92.36743, y: -8.260384}
+        - {x: -81.36743, y: -50.260384}
+        - {x: 64.63257, y: -50.260384}
+        - {x: 93.63257, y: -41.260384}
+        - {x: 93.63257, y: 34.739616}
+        - {x: 20.632568, y: 50.739616}
+      - - {x: 78.63257, y: 28.739616}
+        - {x: 77.63257, y: 26.739616}
+        - {x: 77.63257, y: 23.739616}
+        - {x: 79.63257, y: 22.739616}
+        - {x: 82.63257, y: 22.739616}
+        - {x: 83.63257, y: 23.739616}
+        - {x: 83.63257, y: 28.739616}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

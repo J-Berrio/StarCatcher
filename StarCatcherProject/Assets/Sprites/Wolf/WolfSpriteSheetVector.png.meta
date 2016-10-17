@@ -1,0 +1,254 @@
+fileFormatVersion: 2
+guid: 8800c34656eba4359a9e462299d2f8db
+timeCreated: 1476554297
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WolfSpriteSheetVector_0
+    21300002: WolfSpriteSheetVector_1
+    21300004: WolfSpriteSheetVector_2
+    21300006: WolfSpriteSheetVector_3
+    21300008: WolfSpriteSheetVector_4
+    21300010: WolfSpriteSheetVector_5
+    21300012: WolfSpriteSheetVector_6
+    21300014: WolfSpriteSheetVector_7
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WolfSpriteSheetVector_0
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 206
+        width: 251
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 84.5, y: 76.5}
+        - {x: -94.5, y: 76.5}
+        - {x: -125.5, y: 53.5}
+        - {x: -125.5, y: -19.5}
+        - {x: -81.5, y: -73.5}
+        - {x: -56.5, y: -76.5}
+        - {x: 24.5, y: -76.5}
+        - {x: 125.5, y: 15.5}
+        - {x: 125.5, y: 36.5}
+        - {x: 105.5, y: 71.5}
+    - name: WolfSpriteSheetVector_1
+      rect:
+        serializedVersion: 2
+        x: 388
+        y: 210
+        width: 261
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -130.5, y: 74}
+        - {x: -130.5, y: -65}
+        - {x: -109.5, y: -74}
+        - {x: 100.5, y: -74}
+        - {x: 130.5, y: -23}
+        - {x: 130.5, y: 58}
+        - {x: 111.5, y: 74}
+    - name: WolfSpriteSheetVector_2
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 213
+        width: 289
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 100.5, y: -77}
+        - {x: 144.5, y: -5}
+        - {x: 144.5, y: 55}
+        - {x: 119.5, y: 77}
+        - {x: 32.5, y: 77}
+        - {x: -144.5, y: 56}
+        - {x: -144.5, y: 31}
+        - {x: -142.5, y: 25}
+        - {x: -105.5, y: -14}
+        - {x: -62.5, y: -2}
+        - {x: -57.5, y: -21}
+        - {x: -40.5, y: -77}
+        - {x: -7.5, y: -77}
+        - {x: -3.5, y: -74}
+        - {x: -6.5, y: -67}
+        - {x: 10.5, y: -77}
+    - name: WolfSpriteSheetVector_3
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 209
+        width: 330
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 96, y: -57.5}
+        - {x: 162, y: -33.5}
+        - {x: 165, y: -25.5}
+        - {x: 165, y: 56.5}
+        - {x: 129, y: 79.5}
+        - {x: 72, y: 79.5}
+        - {x: -165, y: 63.5}
+        - {x: -165, y: 49.5}
+        - {x: -137, y: 25.5}
+        - {x: -114, y: 15.5}
+        - {x: -106, y: -79.5}
+        - {x: -82, y: -79.5}
+        - {x: -61, y: -75.5}
+        - {x: -40, y: -79.5}
+        - {x: 9, y: -79.5}
+        - {x: 10, y: -77.5}
+        - {x: -7, y: -61.5}
+        - {x: 79, y: -69.5}
+    - name: WolfSpriteSheetVector_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 350
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 175, y: 43}
+        - {x: 149, y: 53}
+        - {x: 134, y: 80}
+        - {x: 118, y: 80}
+        - {x: 115, y: 79}
+        - {x: -175, y: 74}
+        - {x: -175, y: 57}
+        - {x: -122, y: 26}
+        - {x: -136, y: -46}
+        - {x: -130, y: -80}
+        - {x: -55, y: -80}
+        - {x: -55, y: -79}
+        - {x: -58, y: -71}
+        - {x: 175, y: -47}
+    - name: WolfSpriteSheetVector_5
+      rect:
+        serializedVersion: 2
+        x: 356
+        y: 9
+        width: 334
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -108, y: 75.5}
+        - {x: -152, y: 72.5}
+        - {x: -167, y: 65.5}
+        - {x: -167, y: -71.5}
+        - {x: -81, y: -75.5}
+        - {x: 167, y: -75.5}
+        - {x: 167, y: 71.5}
+        - {x: 162, y: 75.5}
+    - name: WolfSpriteSheetVector_6
+      rect:
+        serializedVersion: 2
+        x: 709
+        y: 8
+        width: 321
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 160.5, y: 68}
+        - {x: 159.5, y: 70}
+        - {x: -93.5, y: 70}
+        - {x: -160.5, y: 66}
+        - {x: -160.5, y: -61}
+        - {x: -151.5, y: -70}
+        - {x: 142.5, y: -70}
+        - {x: 92.5, y: -34}
+        - {x: 89.5, y: -35}
+        - {x: 160.5, y: -5}
+    - name: WolfSpriteSheetVector_7
+      rect:
+        serializedVersion: 2
+        x: 1079
+        y: 9
+        width: 281
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 140.5, y: 47}
+        - {x: 125.5, y: 72}
+        - {x: -114.5, y: 72}
+        - {x: -138.5, y: 66}
+        - {x: -140.5, y: 59}
+        - {x: -140.5, y: -8}
+        - {x: -130.5, y: -28}
+        - {x: -74.5, y: -42}
+        - {x: -27.5, y: -1}
+        - {x: -60.5, y: -30}
+        - {x: -79.5, y: -48}
+        - {x: -69.5, y: -55}
+        - {x: -39.5, y: -52}
+        - {x: 22.5, y: -72}
+        - {x: 62.5, y: -72}
+        - {x: 65.5, y: -68}
+        - {x: 135.5, y: 13}
+        - {x: 140.5, y: 27}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

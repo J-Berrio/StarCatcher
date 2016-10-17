@@ -21,10 +21,10 @@ public class ScrollingBackground : MonoBehaviour
 	void OnTriggerEnter()
 	{
 		int i = UnityEngine.Random.Range (0, scrollList.Count);
-		movePos.x = StaticVars.nextPosition;
+		movePos.x = StaticVars.nextPos;
 		scrollList [i].transform.position = movePos;
 		scrollList.RemoveAt (i);
-		StaticVars.nextPosition += StaticVars.length;
+		StaticVars.nextPos += StaticVars.length;
 	}
 
 }

@@ -1,22 +1,23 @@
 ﻿using UnityEngine;
 using System.Collections;
-//The above is a namespace! When using Unity, we draw from the Unity namespace and libraries
 
 public class MovePlayer : MonoBehaviour 
 {
-	//set speed 
 	public float speed = 10f;
-	//CC component
 	private CharacterController controller;
-	//temp Vect3 to move character
 	private Vector3 tempPosition;
 	public float gravity = 3f;
+
 	public float jumpSpeed = 30f;
 	int AlowedJumps = 1; 
 	int JumpCounter = 0;
 
 	public int slideDuration = 100;
 	public float slideTime = 0.1f;
+
+	private Animator animator;
+	int jumpHash = Animator.StringToHash("Jump");
+	int landHash = Animator.StringToHash ("Land");
 
 	IEnumerator Slide()
 	{
@@ -28,29 +29,37 @@ public class MovePlayer : MonoBehaviour
 		{
 			slideDuration--;
 			yield return new WaitForSeconds (slideTime);
-		
-
-
 		}
-
 		speed = speedTemp;
 		slideDuration = durationTemp;
 	}
 
 	void Start ()
+
 	{
 		controller = GetComponent<CharacterController> ();
+		animator = GetComponent<Animator> ();
 	}
 
 	void Update()
 
 	{
+		HandleLayers ();
+
+		if (controller.velocity.y < 0)
+			{
+				animator.SetBool(landHash, true);
+			}
+
 		if (Input.GetKeyDown (KeyCode.Space))
 		{
+			animator.SetTrigger (jumpHash);
 			if (controller.isGrounded) 
 			{
 				tempPosition.y = jumpSpeed;
 				JumpCounter = 0;
+				animator.ResetTrigger (jumpHash);
+				animator.SetBool (landHash, false);
 			}
 
 			if (!controller.isGrounded && JumpCounter < AlowedJumps) 
@@ -61,10 +70,12 @@ public class MovePlayer : MonoBehaviour
 		}
 			
 		tempPosition.y -= gravity;
-
 		tempPosition.x = speed * Input.GetAxis ("Horizontal");
 		controller.Move (tempPosition * Time.deltaTime);
+	
+		animator.SetFloat ("Speed", Mathf.Abs (Input.GetAxis("Horizontal")));
 
+		
 		if(Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.S))
 		{
 			StartCoroutine (Slide ());	
@@ -72,6 +83,18 @@ public class MovePlayer : MonoBehaviour
 		if(Input.GetKey(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.S))
 		{
 			StartCoroutine (Slide ());	
+		}
+	}
+
+	private void HandleLayers ()
+	{
+		if(controller.isGrounded)
+		{
+			animator.SetLayerWeight(1,0);
+		}
+		else 
+		{
+			animator.SetLayerWeight(1,1);
 		}
 	}
 }

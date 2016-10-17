@@ -1,0 +1,206 @@
+fileFormatVersion: 2
+guid: 722a9daa8f87e4788a8c593698bba5cc
+timeCreated: 1476552381
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rabbit_Idle_Sprite_Sheet@1x_0
+    21300002: Rabbit_Idle_Sprite_Sheet@1x_1
+    21300004: Rabbit_Idle_Sprite_Sheet@1x_2
+    21300006: Rabbit_Idle_Sprite_Sheet@1x_3
+    21300008: Rabbit_Idle_Sprite_Sheet@1x_4
+    21300010: Rabbit_Idle_Sprite_Sheet@1x_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 1024
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rabbit_Idle_Sprite_Sheet@1x_0
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 80
+        width: 453
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 130.04816, y: -42.4321}
+        - {x: 144.04816, y: -19.432098}
+        - {x: 144.04816, y: 9.567902}
+        - {x: 50.048157, y: 121.5679}
+        - {x: 2.0481567, y: 121.5679}
+        - {x: -47.951843, y: 70.5679}
+        - {x: -142.95184, y: 49.5679}
+        - {x: -142.95184, y: -120.4321}
+        - {x: 68.04816, y: -120.4321}
+        - {x: 67.04816, y: -108.4321}
+        - {x: 62.048157, y: -102.4321}
+    - name: Rabbit_Idle_Sprite_Sheet@1x_1
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 80
+        width: 454
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 144.62717, y: -54.9321}
+        - {x: 144.62717, y: 9.067902}
+        - {x: 62.627167, y: 121.0679}
+        - {x: 17.627167, y: 121.0679}
+        - {x: 18.627167, y: 60.0679}
+        - {x: 38.627167, y: 42.0679}
+        - {x: -124.37283, y: 47.0679}
+        - {x: -137.37283, y: 16.067902}
+        - {x: -134.37283, y: -8.932098}
+        - {x: -143.37283, y: -43.9321}
+        - {x: -143.37283, y: -119.9321}
+        - {x: -61.372833, y: -119.9321}
+        - {x: -42.372833, y: -99.9321}
+        - {x: 13.627167, y: -119.9321}
+        - {x: 80.62717, y: -119.9321}
+    - name: Rabbit_Idle_Sprite_Sheet@1x_2
+      rect:
+        serializedVersion: 2
+        x: 1156
+        y: 80
+        width: 453
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 144.70618, y: -33.9321}
+        - {x: 144.70618, y: 6.0679016}
+        - {x: 58.706177, y: 120.0679}
+        - {x: 19.706177, y: 120.0679}
+        - {x: 18.706177, y: 57.0679}
+        - {x: -143.29382, y: 48.0679}
+        - {x: -143.29382, y: -118.9321}
+        - {x: -15.293823, y: -118.9321}
+        - {x: -3.2938232, y: -108.9321}
+        - {x: 10.706177, y: -118.9321}
+        - {x: 79.70618, y: -118.9321}
+    - name: Rabbit_Idle_Sprite_Sheet@1x_3
+      rect:
+        serializedVersion: 2
+        x: 1712
+        y: 80
+        width: 453
+        height: 379
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 143.65308, y: 8.067902}
+        - {x: 59.653076, y: 121.0679}
+        - {x: -6.346924, y: 121.0679}
+        - {x: -39.346924, y: 43.0679}
+        - {x: -126.346924, y: 45.0679}
+        - {x: -143.34692, y: 29.067902}
+        - {x: -143.34692, y: -119.9321}
+        - {x: 57.653076, y: -119.9321}
+        - {x: 72.653076, y: -117.9321}
+        - {x: 143.65308, y: -29.932098}
+    - name: Rabbit_Idle_Sprite_Sheet@1x_4
+      rect:
+        serializedVersion: 2
+        x: 2269
+        y: 80
+        width: 453
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 60.732178, y: 121.5679}
+        - {x: 25.732178, y: 121.5679}
+        - {x: 14.732178, y: 114.5679}
+        - {x: -13.267822, y: 69.5679}
+        - {x: -143.26782, y: 34.5679}
+        - {x: -143.26782, y: -120.4321}
+        - {x: 97.73218, y: -120.4321}
+        - {x: 143.73218, y: -39.4321}
+        - {x: 143.73218, y: 9.567902}
+    - name: Rabbit_Idle_Sprite_Sheet@1x_5
+      rect:
+        serializedVersion: 2
+        x: 2785
+        y: 80
+        width: 453
+        height: 384
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 138.89514, y: -30.432098}
+        - {x: 143.89514, y: -19.432098}
+        - {x: 143.89514, y: 6.5679016}
+        - {x: 51.89514, y: 122.5679}
+        - {x: 19.895142, y: 122.5679}
+        - {x: 17.895142, y: 121.5679}
+        - {x: 15.895142, y: 79.5679}
+        - {x: -132.10486, y: 65.5679}
+        - {x: -143.10486, y: 49.5679}
+        - {x: -143.10486, y: -121.4321}
+        - {x: -70.10486, y: -121.4321}
+        - {x: -51.10486, y: -115.4321}
+        - {x: 10.895142, y: -121.4321}
+        - {x: 76.89514, y: -121.4321}
+      - - {x: 140.89514, y: 24.567902}
+        - {x: 138.89514, y: 23.567902}
+        - {x: 138.89514, y: 20.567902}
+        - {x: 139.89514, y: 18.567902}
+        - {x: 143.89514, y: 18.567902}
+        - {x: 143.89514, y: 23.567902}
+        - {x: 142.89514, y: 24.567902}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

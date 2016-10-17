@@ -1,0 +1,218 @@
+fileFormatVersion: 2
+guid: 963c2069913be4e96af1333d4dbc12b2
+timeCreated: 1476554428
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: WolfJumpSpriteSheet_0
+    21300002: WolfJumpSpriteSheet_1
+    21300004: WolfJumpSpriteSheet_2
+    21300006: WolfJumpSpriteSheet_3
+    21300008: WolfJumpSpriteSheet_4
+    21300010: WolfJumpSpriteSheet_5
+    21300012: WolfJumpSpriteSheet_6
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: WolfJumpSpriteSheet_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 202
+        width: 277
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.5, y: 77}
+        - {x: -125.5, y: 77}
+        - {x: -138.5, y: 72}
+        - {x: -138.5, y: -7}
+        - {x: -131.5, y: -27}
+        - {x: -21.5, y: -77}
+        - {x: 109.5, y: -77}
+        - {x: 138.5, y: -15}
+        - {x: 138.5, y: 47}
+        - {x: 114.5, y: 66}
+    - name: WolfJumpSpriteSheet_1
+      rect:
+        serializedVersion: 2
+        x: 360
+        y: 207
+        width: 261
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 93.5, y: 67}
+        - {x: 37.5, y: 77}
+        - {x: -114.5, y: 77}
+        - {x: -130.5, y: 65}
+        - {x: -130.5, y: 53}
+        - {x: -98.5, y: -1}
+        - {x: 3.5, y: -77}
+        - {x: 111.5, y: -77}
+        - {x: 130.5, y: -46}
+        - {x: 130.5, y: 38}
+        - {x: 117.5, y: 50}
+    - name: WolfJumpSpriteSheet_2
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 221
+        width: 288
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 144, y: 74}
+        - {x: 104, y: 81}
+        - {x: 22, y: 81}
+        - {x: -144, y: -11}
+        - {x: -144, y: -81}
+        - {x: 9, y: -81}
+        - {x: 122, y: -48}
+        - {x: 135, y: -31}
+        - {x: 135, y: -12}
+        - {x: 144, y: 22}
+    - name: WolfJumpSpriteSheet_3
+      rect:
+        serializedVersion: 2
+        x: 1051
+        y: 238
+        width: 349
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 174.5, y: 42.5}
+        - {x: 174.5, y: 78.5}
+        - {x: -137.5, y: 78.5}
+        - {x: -174.5, y: -18.5}
+        - {x: -174.5, y: -26.5}
+        - {x: -172.5, y: -28.5}
+        - {x: -149.5, y: -39.5}
+        - {x: -169.5, y: -78.5}
+        - {x: -87.5, y: -78.5}
+        - {x: 174.5, y: 14.5}
+        - {x: 174.5, y: 23.5}
+        - {x: 165.5, y: 33.5}
+    - name: WolfJumpSpriteSheet_4
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 51
+        width: 349
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 34.5, y: 68}
+        - {x: -135.5, y: 29}
+        - {x: -174.5, y: 3}
+        - {x: -174.5, y: -9}
+        - {x: -155.5, y: -25}
+        - {x: -133.5, y: -32}
+        - {x: -129.5, y: -33}
+        - {x: -161.5, y: -60}
+        - {x: -158.5, y: -67}
+        - {x: -141.5, y: -68}
+        - {x: -135.5, y: -68}
+        - {x: -130.5, y: -61}
+        - {x: -130.5, y: -68}
+        - {x: 59.5, y: -68}
+        - {x: 174.5, y: -4}
+        - {x: 174.5, y: 53}
+        - {x: 102.5, y: 68}
+    - name: WolfJumpSpriteSheet_5
+      rect:
+        serializedVersion: 2
+        x: 361
+        y: 34
+        width: 337
+        height: 126
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -168.5, y: 63}
+        - {x: -168.5, y: -63}
+        - {x: -5.5, y: -63}
+        - {x: 17.5, y: -54}
+        - {x: 168.5, y: -53}
+        - {x: 168.5, y: 63}
+    - name: WolfJumpSpriteSheet_6
+      rect:
+        serializedVersion: 2
+        x: 716
+        y: 5
+        width: 290
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -142, y: 79}
+        - {x: -145, y: 78}
+        - {x: -145, y: 43}
+        - {x: -102, y: 24}
+        - {x: -98, y: 24}
+        - {x: -74, y: -55}
+        - {x: -56, y: -79}
+        - {x: 131, y: -79}
+        - {x: 145, y: -32}
+        - {x: 145, y: 73}
+        - {x: 139, y: 79}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
