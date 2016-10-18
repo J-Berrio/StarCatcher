@@ -16,6 +16,6 @@ public class Boundary : MonoBehaviour
 
 	public void RestartLevel()
 	{
-		SceneManager.LoadScene (3);
+		SceneManager.LoadScene (0);
 	}
 }
