@@ -19,26 +19,14 @@ public class MovePlayer : MonoBehaviour
 	int jumpHash = Animator.StringToHash("Jump");
 	int landHash = Animator.StringToHash ("Land");
 
-	IEnumerator Slide()
-	{
-		int durationTemp = slideDuration;
 
-		float speedTemp = speed;
-		speed += speed;
-		while (slideDuration > 0) 
-		{
-			slideDuration--;
-			yield return new WaitForSeconds (slideTime);
-		}
-		speed = speedTemp;
-		slideDuration = durationTemp;
-	}
 
 	void Start ()
 
 	{
 		controller = GetComponent<CharacterController> ();
 		animator = GetComponent<Animator> ();
+
 	}
 
 	void Update()
@@ -54,6 +42,7 @@ public class MovePlayer : MonoBehaviour
 		if (Input.GetKeyDown (KeyCode.Space))
 		{
 			animator.SetTrigger (jumpHash);
+
 			if (controller.isGrounded) 
 			{
 				tempPosition.y = jumpSpeed;
@@ -76,14 +65,11 @@ public class MovePlayer : MonoBehaviour
 		animator.SetFloat ("Speed", Mathf.Abs (Input.GetAxis("Horizontal")));
 
 		
-		if(Input.GetKey(KeyCode.RightArrow) && Input.GetKeyDown(KeyCode.S))
+		if(Input.GetKeyDown(KeyCode.S))
 		{
 			StartCoroutine (Slide ());	
 		}
-		if(Input.GetKey(KeyCode.LeftArrow) && Input.GetKeyDown(KeyCode.S))
-		{
-			StartCoroutine (Slide ());	
-		}
+
 	}
 
 	private void HandleLayers ()
@@ -91,10 +77,29 @@ public class MovePlayer : MonoBehaviour
 		if(controller.isGrounded)
 		{
 			animator.SetLayerWeight(1,0);
+			if (Input.GetKeyDown (KeyCode.Space))
+			{
+				animator.SetLayerWeight (1, 1);
+			}
 		}
 		else 
 		{
 			animator.SetLayerWeight(1,1);
 		}
+	}
+
+	IEnumerator Slide()
+	{
+		int durationTemp = slideDuration;
+
+		float speedTemp = speed;
+		speed += speed;
+		while (slideDuration > 0) 
+		{
+			slideDuration--;
+			yield return new WaitForSeconds (slideTime);
+		}
+		speed = speedTemp;
+		slideDuration = durationTemp;
 	}
 }

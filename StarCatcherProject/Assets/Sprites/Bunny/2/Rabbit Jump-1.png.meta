@@ -1,0 +1,274 @@
+fileFormatVersion: 2
+guid: 4e3f952ab3e6a4ca3836e17bef8a1f2c
+timeCreated: 1476826093
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rabbit Jump-1_0
+    21300002: Rabbit Jump-1_1
+    21300004: Rabbit Jump-1_2
+    21300006: Rabbit Jump-1_3
+    21300008: Rabbit Jump-1_4
+    21300010: Rabbit Jump-1_5
+    21300012: Rabbit Jump-1_6
+    21300014: Rabbit Jump-1_7
+    21300016: Rabbit Jump-1_8
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rabbit Jump-1_0
+      rect:
+        serializedVersion: 2
+        x: 46
+        y: 23
+        width: 224
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 76.581635, y: 32.040817}
+        - {x: -20.418365, y: 50.040817}
+        - {x: -89.418365, y: 50.040817}
+        - {x: -90.418365, y: 48.040817}
+        - {x: -90.418365, y: 6.0408173}
+        - {x: -74.418365, y: -48.959183}
+        - {x: 55.581635, y: -48.959183}
+        - {x: 90.581635, y: -17.959183}
+        - {x: 90.581635, y: 15.040817}
+      - - {x: 77.581635, y: 28.040817}
+        - {x: 74.581635, y: 28.040817}
+        - {x: 74.581635, y: 22.040817}
+        - {x: 79.581635, y: 22.040817}
+        - {x: 80.581635, y: 24.040817}
+        - {x: 80.581635, y: 26.040817}
+    - name: Rabbit Jump-1_1
+      rect:
+        serializedVersion: 2
+        x: 538
+        y: 133
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+    - name: Rabbit Jump-1_2
+      rect:
+        serializedVersion: 2
+        x: 659
+        y: 23
+        width: 210
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -84.76532, y: -19.959183}
+        - {x: -55.76532, y: -58.959183}
+        - {x: 64.23468, y: -58.959183}
+        - {x: 85.23468, y: -4.9591827}
+        - {x: 85.23468, y: 52.040817}
+        - {x: -71.76532, y: 52.040817}
+        - {x: -84.76532, y: 49.040817}
+      - - {x: 57.23468, y: 60.040817}
+        - {x: 57.23468, y: 56.040817}
+        - {x: 59.23468, y: 55.040817}
+        - {x: 62.23468, y: 55.040817}
+        - {x: 63.23468, y: 56.040817}
+        - {x: 63.23468, y: 60.040817}
+    - name: Rabbit Jump-1_3
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 23
+        width: 204
+        height: 247
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -3.5, y: 100.54082}
+        - {x: -40.5, y: 100.54082}
+        - {x: -82.5, y: 29.540817}
+        - {x: -82.5, y: -94.45918}
+        - {x: -81.5, y: -98.45918}
+        - {x: -77.5, y: -99.45918}
+        - {x: -51.5, y: -99.45918}
+        - {x: 82.5, y: -3.4591827}
+        - {x: 82.5, y: 71.54082}
+        - {x: 66.5, y: 77.54082}
+      - - {x: 70.5, y: 82.54082}
+        - {x: 67.5, y: 79.54082}
+        - {x: 67.5, y: 78.54082}
+        - {x: 69.5, y: 76.54082}
+        - {x: 71.5, y: 76.54082}
+        - {x: 73.5, y: 78.54082}
+        - {x: 73.5, y: 80.54082}
+        - {x: 71.5, y: 82.54082}
+    - name: Rabbit Jump-1_4
+      rect:
+        serializedVersion: 2
+        x: 1297
+        y: 29
+        width: 232
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 33.54077, y: 86.37755}
+        - {x: 20.540771, y: 86.37755}
+        - {x: 17.540771, y: 82.37755}
+        - {x: 12.5407715, y: 86.37755}
+        - {x: -6.4592285, y: 86.37755}
+        - {x: -92.45923, y: 39.37755}
+        - {x: -92.45923, y: -49.62245}
+        - {x: -85.45923, y: -85.62245}
+        - {x: 18.540771, y: -85.62245}
+        - {x: 47.54077, y: -73.62245}
+        - {x: 94.54077, y: -15.622452}
+        - {x: 94.54077, y: 31.377548}
+      - - {x: 92.54077, y: 25.377548}
+        - {x: 89.54077, y: 22.377548}
+        - {x: 89.54077, y: 21.377548}
+        - {x: 92.54077, y: 18.377548}
+        - {x: 94.54077, y: 19.377548}
+        - {x: 94.54077, y: 24.377548}
+        - {x: 93.54077, y: 25.377548}
+    - name: Rabbit Jump-1_5
+      rect:
+        serializedVersion: 2
+        x: 1625
+        y: 33
+        width: 239
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 43.948975, y: 80.102036}
+        - {x: 34.948975, y: 84.102036}
+        - {x: -44.051025, y: 84.102036}
+        - {x: -80.051025, y: 62.102036}
+        - {x: -94.051025, y: 13.1020355}
+        - {x: -94.051025, y: -32.897964}
+        - {x: 8.948975, y: -82.897964}
+        - {x: 57.948975, y: -82.897964}
+        - {x: 97.948975, y: -37.897964}
+        - {x: 97.948975, y: -5.8979645}
+        - {x: 96.948975, y: -1.8979645}
+    - name: Rabbit Jump-1_6
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 25
+        width: 227
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 12.642822, y: 70.15306}
+        - {x: -4.3571777, y: 67.15306}
+        - {x: -1.3571777, y: 39.15306}
+        - {x: -25.357178, y: 70.15306}
+        - {x: -64.35718, y: 70.15306}
+        - {x: -89.35718, y: 17.15306}
+        - {x: -89.35718, y: -31.84694}
+        - {x: -83.35718, y: -48.84694}
+        - {x: -48.357178, y: -69.84694}
+        - {x: 65.64282, y: -69.84694}
+        - {x: 92.64282, y: -56.84694}
+        - {x: 92.64282, y: -0.8469391}
+        - {x: 21.642822, y: 70.15306}
+    - name: Rabbit Jump-1_7
+      rect:
+        serializedVersion: 2
+        x: 2266
+        y: 24
+        width: 224
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 2.673462, y: 49.34694}
+        - {x: -88.32654, y: 49.34694}
+        - {x: -88.32654, y: 12.346939}
+        - {x: -76.32654, y: -48.65306}
+        - {x: 64.67346, y: -48.65306}
+        - {x: 91.67346, y: -38.65306}
+        - {x: 91.67346, y: 32.34694}
+        - {x: 86.67346, y: 40.34694}
+      - - {x: 78.67346, y: 28.34694}
+        - {x: 77.67346, y: 26.34694}
+        - {x: 77.67346, y: 23.34694}
+        - {x: 79.67346, y: 22.34694}
+        - {x: 82.67346, y: 22.34694}
+        - {x: 83.67346, y: 23.34694}
+        - {x: 83.67346, y: 28.34694}
+    - name: Rabbit Jump-1_8
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 23
+        width: 226
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -90.80612, y: -40.959183}
+        - {x: 82.19388, y: -40.959183}
+        - {x: 92.19388, y: 0.04081726}
+        - {x: 92.19388, y: 42.040817}
+        - {x: -90.80612, y: 42.040817}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

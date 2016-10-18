@@ -1,0 +1,201 @@
+fileFormatVersion: 2
+guid: c25109fe1f994413e8034214298edcfc
+timeCreated: 1476826075
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: Rabbit Idle-1_0
+    21300002: Rabbit Idle-1_1
+    21300004: Rabbit Idle-1_2
+    21300006: Rabbit Idle-1_3
+    21300008: Rabbit Idle-1_4
+    21300010: Rabbit Idle-1_5
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: Rabbit Idle-1_0
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 25
+        width: 257
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 128.5, y: 12}
+        - {x: 50.5, y: 108}
+        - {x: 15.5, y: 108}
+        - {x: -8.5, y: 104}
+        - {x: -114.5, y: 43}
+        - {x: -125.5, y: 15}
+        - {x: -128.5, y: -16}
+        - {x: -128.5, y: -108}
+        - {x: 68.5, y: -108}
+        - {x: 116.5, y: -38}
+        - {x: 128.5, y: -20}
+    - name: Rabbit Idle-1_1
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 25
+        width: 257
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 46.5, y: 107.5}
+        - {x: -15.5, y: 107.5}
+        - {x: -111.5, y: 36.5}
+        - {x: -128.5, y: 19.5}
+        - {x: -128.5, y: -107.5}
+        - {x: 93.5, y: -107.5}
+        - {x: 128.5, y: -23.5}
+        - {x: 128.5, y: 18.5}
+    - name: Rabbit Idle-1_2
+      rect:
+        serializedVersion: 2
+        x: 675
+        y: 25
+        width: 257
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 54.5, y: -107}
+        - {x: 63.5, y: -103}
+        - {x: 128.5, y: -39}
+        - {x: 128.5, y: 9}
+        - {x: 48.5, y: 107}
+        - {x: -16.5, y: 107}
+        - {x: -128.5, y: 33}
+        - {x: -128.5, y: -107}
+        - {x: -92.5, y: -107}
+        - {x: -91.5, y: -106}
+        - {x: -94.5, y: -93}
+        - {x: -81.5, y: -107}
+    - name: Rabbit Idle-1_3
+      rect:
+        serializedVersion: 2
+        x: 991
+        y: 25
+        width: 258
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 16, y: 107.5}
+        - {x: 13, y: 65.5}
+        - {x: 24, y: 25.5}
+        - {x: -125, y: 66.5}
+        - {x: -129, y: 54.5}
+        - {x: -129, y: -107.5}
+        - {x: 63, y: -107.5}
+        - {x: 129, y: -34.5}
+        - {x: 129, y: 10.5}
+        - {x: 58, y: 107.5}
+    - name: Rabbit Idle-1_4
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 25
+        width: 257
+        height: 216
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 55.5, y: 108}
+        - {x: 2.5, y: 108}
+        - {x: 13.5, y: 34}
+        - {x: -118.5, y: 43}
+        - {x: -128.5, y: 2}
+        - {x: -128.5, y: -108}
+        - {x: 94.5, y: -108}
+        - {x: 128.5, y: -50}
+        - {x: 128.5, y: 48}
+    - name: Rabbit Idle-1_5
+      rect:
+        serializedVersion: 2
+        x: 1602
+        y: 25
+        width: 257
+        height: 217
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 32.5, y: 108.5}
+        - {x: 31.5, y: 97.5}
+        - {x: 16.5, y: 107.5}
+        - {x: 10.5, y: 72.5}
+        - {x: 19.5, y: 49.5}
+        - {x: 34.5, y: 36.5}
+        - {x: -52.5, y: 19.5}
+        - {x: -105.5, y: 34.5}
+        - {x: -113.5, y: 33.5}
+        - {x: -122.5, y: 10.5}
+        - {x: -128.5, y: -25.5}
+        - {x: -128.5, y: -108.5}
+        - {x: 62.5, y: -108.5}
+        - {x: 128.5, y: -65.5}
+        - {x: 128.5, y: 39.5}
+        - {x: 46.5, y: 108.5}
+      - - {x: 124.5, y: 19.5}
+        - {x: 124.5, y: 17.5}
+        - {x: 126.5, y: 15.5}
+        - {x: 128.5, y: 15.5}
+        - {x: 128.5, y: 21.5}
+        - {x: 126.5, y: 21.5}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
