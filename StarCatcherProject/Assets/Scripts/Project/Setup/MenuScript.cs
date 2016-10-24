@@ -33,7 +33,7 @@ public class MenuScript : MonoBehaviour
 
 	public void StartLevel()
 	{
-		SceneManager.LoadScene (0);
+		SceneManager.LoadScene (1);
 	}
 
 	public void ExitGame()
