@@ -4,27 +4,53 @@ using System.Collections.Generic;
 
 public class RecycleLevel : MonoBehaviour 
 {
-	public List <SendToRecycler> recycleList;
-	private Vector3 movePos;
+	//public List <SendToRecycler> recycleList;
+	//private Vector3 movePos;
 
-	void SendThisHandler(SendToRecycler _r)
+	//void SendThisHandler(SendToRecycler _r)
+	//{
+	//	recycleList.Add (_r);
+	//}
+
+	//void Start()
+	//{
+	//	recycleList = new List<SendToRecycler> ();
+	//	SendToRecycler.SendThis += SendThisHandler;
+	//}
+
+	//void OnTriggerEnter()
+	//{
+	//	int i = UnityEngine.Random.Range (0, recycleList.Count - 1);
+	//	movePos.x = Statics.nextPosition;
+	//	recycleList [i].transform.position = movePos;
+	//	recycleList.RemoveAt (i);
+	//	Statics.nextPosition += Statics.distance;
+	//}
+
+
+	private Vector3 newLocation;
+	public List<SendToRecycler> recyclableList;
+	private int i = 0;
+
+	void Start ()
 	{
-		recycleList.Add (_r);
+		recyclableList = new List<SendToRecycler>();
+		SendToRecycler.RecycleAction += RecycleActionHandler;
 	}
 
-	void Start()
+	private void RecycleActionHandler(SendToRecycler _r)
 	{
-		recycleList = new List<SendToRecycler> ();
-		SendToRecycler.SendThis += SendThisHandler;
+		recyclableList.Add(_r);
 	}
 
 	void OnTriggerEnter()
 	{
-		int i = UnityEngine.Random.Range (0, recycleList.Count - 1);
-		movePos.x = Statics.nextPosition;
-		recycleList [i].transform.position = movePos;
-		recycleList.RemoveAt (i);
+		i = UnityEngine.Random.Range(0, recyclableList.Count - 1);
+		newLocation.x = Statics.nextPosition;
+		recyclableList[i].cube.position = newLocation;
 		Statics.nextPosition += Statics.distance;
+		if (recyclableList.Count > 0)
+			recyclableList.RemoveAt(i);
 	}
 
 }

@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/FlipPlayerArt.unity
+- path: Assets/Scenes/Main 5.unity
   isLoaded: 1
   isActive: 1
