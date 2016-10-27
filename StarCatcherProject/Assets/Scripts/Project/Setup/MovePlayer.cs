@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using System.Collections;
+using UnityEngine.UI;
 
 public class MovePlayer : MonoBehaviour 
 {
@@ -19,6 +20,9 @@ public class MovePlayer : MonoBehaviour
 	int jumpHash = Animator.StringToHash("Jump");
 	int landHash = Animator.StringToHash ("Land");
 
+	private int count;
+	public Text countText;
+
 
 
 	void Start ()
@@ -26,7 +30,8 @@ public class MovePlayer : MonoBehaviour
 	{
 		controller = GetComponent<CharacterController> ();
 		animator = GetComponent<Animator> ();
-
+		count = 0;
+		SetCountText ();
 	}
 
 	void Update()
@@ -107,7 +112,14 @@ public class MovePlayer : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag ("Pick Up"))
 		{
-			other.gameObject.SetActive (false);
+			Destroy(other.gameObject);
+			count = count + 1;
+			SetCountText ();
 		}
+	}
+
+	void SetCountText()
+	{
+		countText.text = "Count: " + count.ToString ();
 	}
 }
