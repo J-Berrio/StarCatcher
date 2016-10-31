@@ -23,10 +23,7 @@ public class MovePlayer : MonoBehaviour
 	private int count;
 	public Text countText;
 
-
-
 	void Start ()
-
 	{
 		controller = GetComponent<CharacterController> ();
 		animator = GetComponent<Animator> ();
@@ -35,7 +32,6 @@ public class MovePlayer : MonoBehaviour
 	}
 
 	void Update()
-
 	{
 		HandleLayers ();
 
@@ -112,7 +108,7 @@ public class MovePlayer : MonoBehaviour
 	{
 		if (other.gameObject.CompareTag ("Pick Up"))
 		{
-			Destroy(other.gameObject);
+			StarControl.Deactivate(gameObject);
 			count = count + 1;
 			SetCountText ();
 		}
