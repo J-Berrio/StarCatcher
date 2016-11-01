@@ -4,8 +4,8 @@ using System.Collections.Generic;
 
 public class StarManager : MonoBehaviour
 {
-	public List<StarSpawner> spawner;
-	public List<Star> stars;
+	public List<Transform> spawner;
+	public List<Transform> stars;
 	private bool canSpawn = true;
 	private int starNum;
 	private int spawnerNum;
@@ -24,7 +24,7 @@ public class StarManager : MonoBehaviour
 	{
 		StarSpawner.SendSpawner += SpawnerHandler;
 		Star.SendStar += StarHandler;
-		if (stars != null && spawner != null) 
+		if (stars != null || spawner != null) 
 		{
 			StartCoroutine (Spawn());
 

@@ -12,7 +12,6 @@ public class Star : MonoBehaviour
 		GetComponent<MeshRenderer> ().enabled = false;
 		if (SendStar != null) {
 			SendStar (transform);
-
 		}
 
 	}

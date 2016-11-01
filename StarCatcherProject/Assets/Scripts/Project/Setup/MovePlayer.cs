@@ -9,6 +9,7 @@ public class MovePlayer : MonoBehaviour
 	private Vector3 tempPosition;
 	public float gravity = 3f;
 
+
 	public float jumpSpeed = 30f;
 	int AlowedJumps = 1; 
 	int JumpCounter = 0;
@@ -107,8 +108,9 @@ public class MovePlayer : MonoBehaviour
 	void OnTriggerEnter(Collider other) 
 	{
 		if (other.gameObject.CompareTag ("Pick Up"))
+			//change to layer
 		{
-			StarControl.Deactivate(gameObject);
+			//StarControl.Deactivate(gameObject);
 			count = count + 1;
 			SetCountText ();
 		}
