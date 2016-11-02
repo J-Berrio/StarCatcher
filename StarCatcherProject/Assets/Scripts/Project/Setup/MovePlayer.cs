@@ -110,6 +110,7 @@ public class MovePlayer : MonoBehaviour
 		if (other.gameObject.CompareTag ("Pick Up"))
 			//change to layer
 		{
+			other.gameObject.SetActive (false);
 			//StarControl.Deactivate(gameObject);
 			count = count + 1;
 			SetCountText ();
