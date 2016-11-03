@@ -125,7 +125,7 @@ MonoBehaviour:
   forceDuration: 0.1
   forceRange: 10
   torqueRange: 2
-  endTime: 3
+  endTime: 5
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
