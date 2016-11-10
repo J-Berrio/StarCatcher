@@ -20,15 +20,15 @@ TagManager:
   - Boundary
   - Ground
   - BackGround
-  - Terrain
+  - 
   - Landscape
-  - EnemytoGround
-  - EnemytoPlayer
+  - 
+  - 
   - Player
   - Stars
-  - StarPlayer
   - 
-  - 
+  - Enemy
+  - Wall
   - 
   - 
   - 
