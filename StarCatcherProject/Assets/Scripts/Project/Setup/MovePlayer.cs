@@ -71,7 +71,6 @@ public class MovePlayer : MonoBehaviour
 		{
 			StartCoroutine (Slide ());	
 		}
-
 	}
 
 	private void HandleLayers ()
@@ -108,14 +107,13 @@ public class MovePlayer : MonoBehaviour
 	void OnTriggerEnter(Collider other) 
 	{
 		if (other.gameObject.CompareTag ("Pick Up"))
-			//change to layer
 		{
 			other.gameObject.SetActive (false);
-			//StarControl.Deactivate(gameObject);
 			count = count + 1;
 			SetCountText ();
 		}
 	}
+
 
 	void SetCountText()
 	{

@@ -262,7 +262,7 @@ GameObject:
   - 114: {fileID: 74654517}
   m_Layer: 19
   m_Name: Capsule
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -274,7 +274,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 74654512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -18.77, z: 0}
+  m_LocalPosition: {x: 0.06, y: -18.770002, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 392495570}
@@ -336,7 +336,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a440f304844c94e178e10e55057a8487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  countText: {fileID: 1493771393}
 --- !u!1001 &101788132
 Prefab:
   m_ObjectHideFlags: 0
@@ -1379,6 +1378,7 @@ GameObject:
   - 23: {fileID: 392495567}
   - 195: {fileID: 392495566}
   - 114: {fileID: 392495571}
+  - 54: {fileID: 392495572}
   m_Layer: 19
   m_Name: Agent
   m_TagString: Untagged
@@ -1478,6 +1478,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myAgent: {fileID: 392495566}
   player: {fileID: 424645267}
+--- !u!54 &392495572
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 392495565}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 124
+  m_CollisionDetection: 0
 --- !u!4 &413926929 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400002, guid: a6a30b5de76e14f1cb159f31aed9a95f, type: 3}
@@ -1497,6 +1512,7 @@ GameObject:
   - 95: {fileID: 424645273}
   - 212: {fileID: 424645272}
   - 136: {fileID: 424645274}
+  - 114: {fileID: 424645275}
   m_Layer: 16
   m_Name: Player
   m_TagString: Untagged
@@ -1635,6 +1651,19 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &424645275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 424645266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aacc2c52d6714bc3a3090c901e2e7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  countText: {fileID: 1493771393}
+  wolf: {fileID: 74654512}
 --- !u!1001 &429758490
 Prefab:
   m_ObjectHideFlags: 0
