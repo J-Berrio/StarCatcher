@@ -260,6 +260,7 @@ GameObject:
   - 136: {fileID: 74654515}
   - 23: {fileID: 74654514}
   - 114: {fileID: 74654517}
+  - 114: {fileID: 74654518}
   m_Layer: 19
   m_Name: Capsule
   m_TagString: Enemy
@@ -336,6 +337,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a440f304844c94e178e10e55057a8487, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &74654518
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 74654512}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5aacc2c52d6714bc3a3090c901e2e7dd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 1493771393}
+  minusPoints: 1
 --- !u!1001 &101788132
 Prefab:
   m_ObjectHideFlags: 0
@@ -1512,7 +1526,6 @@ GameObject:
   - 95: {fileID: 424645273}
   - 212: {fileID: 424645272}
   - 136: {fileID: 424645274}
-  - 114: {fileID: 424645275}
   m_Layer: 16
   m_Name: Player
   m_TagString: Untagged
@@ -1651,19 +1664,6 @@ CapsuleCollider:
   m_Height: 1
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &424645275
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 424645266}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5aacc2c52d6714bc3a3090c901e2e7dd, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  countText: {fileID: 1493771393}
-  wolf: {fileID: 74654512}
 --- !u!1001 &429758490
 Prefab:
   m_ObjectHideFlags: 0

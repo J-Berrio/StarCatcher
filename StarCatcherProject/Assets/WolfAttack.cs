@@ -4,21 +4,36 @@ using UnityEngine.UI;
 
 public class WolfAttack : MonoBehaviour 
 {
-	private int count;
-	public Text countText;
-	public GameObject wolf;
+	public Text scoreText;
+	public int minusPoints;
 
-	void OnTriggerEnter(Collider other) 
+	void Start()
 	{
-		if (other.gameObject.CompareTag ("Enemy") && count > 0) 
-		{
-				count = count - 1;
-				SetCountText ();
-		}
+
+		Statics.points = 0;
+		SetCountText();
+	}
+
+	void OnTriggerEnter()
+	{
+
+		Statics.count = Statics.count - minusPoints;
+		SetCountText();
+
 	}
 
 	void SetCountText()
 	{
-		countText.text = "Count: " + count.ToString ();
+		if (Statics.count < 0)
+			Statics.count = 0;
+
+		scoreText.text = "Stars: " + Statics.count.ToString();
+
+	}
+
+	void Update()
+	{
+
+		Statics.points = Statics.count;
 	}
 }
