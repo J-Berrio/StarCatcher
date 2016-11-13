@@ -9,17 +9,14 @@ public class WolfAttack : MonoBehaviour
 
 	void Start()
 	{
-
 		Statics.points = 0;
 		SetCountText();
 	}
 
 	void OnTriggerEnter()
 	{
-
 		Statics.count = Statics.count - minusPoints;
 		SetCountText();
-
 	}
 
 	void SetCountText()
@@ -27,13 +24,11 @@ public class WolfAttack : MonoBehaviour
 		if (Statics.count < 0)
 			Statics.count = 0;
 
-		scoreText.text = "Stars: " + Statics.count.ToString();
-
+		scoreText.text = "Score: " + Statics.count.ToString();
 	}
 
 	void Update()
 	{
-
 		Statics.points = Statics.count;
 	}
 }

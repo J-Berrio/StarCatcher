@@ -5,6 +5,7 @@ public class NavStuff : MonoBehaviour
 {
 	public NavMeshAgent myAgent;
 	public Transform player;
+	//private int i = 0;
 
 	void Start()
 	{
@@ -13,6 +14,6 @@ public class NavStuff : MonoBehaviour
 
 	void Update()
 	{
-		myAgent.destination = player.position;
+		myAgent.destination = player.transform.position;
 	}
 }
