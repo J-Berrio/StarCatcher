@@ -42,23 +42,23 @@ public class MovePlayer : MonoBehaviour
 			}
 
 		if (Input.GetKeyDown (KeyCode.Space))
-		{
-			animator.SetTrigger (jumpHash);
-
-			if (controller.isGrounded) 
 			{
-				tempPosition.y = jumpSpeed;
-				JumpCounter = 0;
-				animator.ResetTrigger (jumpHash);
-				animator.SetBool (landHash, false);
-			}
+				animator.SetTrigger (jumpHash);
 
-			if (!controller.isGrounded && JumpCounter < AlowedJumps) 
-			{
-				tempPosition.y = jumpSpeed;
-				JumpCounter++;
+				if (controller.isGrounded) 
+				{
+					tempPosition.y = jumpSpeed;
+					JumpCounter = 0;
+					animator.ResetTrigger (jumpHash);
+					animator.SetBool (landHash, false);
+				}
+
+				if (!controller.isGrounded && JumpCounter < AlowedJumps) 
+				{
+					tempPosition.y = jumpSpeed;
+					JumpCounter++;
+				}
 			}
-		}
 			
 		tempPosition.y -= gravity;
 		tempPosition.x = speed * Input.GetAxis ("Horizontal");
@@ -66,11 +66,10 @@ public class MovePlayer : MonoBehaviour
 	
 		animator.SetFloat ("Speed", Mathf.Abs (Input.GetAxis("Horizontal")));
 
-		
 		if(Input.GetKeyDown(KeyCode.S))
-		{
-			StartCoroutine (Slide ());	
-		}
+			{
+				StartCoroutine (Slide ());	
+			}
 	}
 
 	private void HandleLayers ()

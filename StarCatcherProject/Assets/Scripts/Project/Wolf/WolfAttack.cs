@@ -9,7 +9,7 @@ public class WolfAttack : MonoBehaviour
 
 	void Start()
 	{
-		Statics.points = 0;
+		//Statics.points = 0;
 		SetCountText();
 	}
 
