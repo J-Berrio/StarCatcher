@@ -21,15 +21,10 @@ public class MovePlayer : MonoBehaviour
 	int jumpHash = Animator.StringToHash("Jump");
 	int landHash = Animator.StringToHash ("Land");
 
-	//private int count;
-	public Text countText;
-
 	void Start ()
 	{
 		controller = GetComponent<CharacterController> ();
 		animator = GetComponent<Animator> ();
-
-		SetCountText ();
 	}
 
 	void Update()
@@ -103,19 +98,4 @@ public class MovePlayer : MonoBehaviour
 		slideDuration = durationTemp;
 	}
 
-	void OnTriggerEnter(Collider other) 
-	{
-		if (other.gameObject.CompareTag ("Pick Up"))
-		{
-			other.gameObject.SetActive (false);
-			Statics.count = Statics.count + 1;
-			SetCountText ();
-		}
-	}
-
-
-	void SetCountText()
-	{
-		countText.text = "Score: " + Statics.count.ToString ();
-	}
 }

@@ -4,9 +4,11 @@ using UnityEngine.UI;
 
 public class WolfStarCollect : MonoBehaviour 
 {
+	//public GameObject star;
+	
 	void OnTriggerEnter(Collider other) 
 	{
-		if (other.gameObject.CompareTag ("Pick Up")) 
+		if (other.tag == "player") 
 		{
 			other.gameObject.SetActive (false);
 		}
