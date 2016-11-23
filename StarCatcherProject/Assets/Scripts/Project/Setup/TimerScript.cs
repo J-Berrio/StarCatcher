@@ -7,15 +7,14 @@ public class TimerScript : MonoBehaviour
 {
 	public Text timerText;
 	public float myTimer = 100; 
-	private bool gameOver = false;
-	public Text gameOverText;
 	private bool timerIsActive = true;
+	//private GameOverScript over;
+	public Canvas gameOverMenu;
 
 	void Start()
 	{
 		timerText = GetComponent<Text> ();
-
-		gameOverText.text = "";
+		//GameOverScript over = GetComponent<GameOverScript>();
 	}
 
 	void Update()
@@ -24,22 +23,17 @@ public class TimerScript : MonoBehaviour
 		{
 			myTimer -= Time.deltaTime;
 			timerText.text = "Time Left: " + myTimer.ToString ("f0");
-			if (myTimer < 0) {
+			if (myTimer < 0) 
+			{
 				myTimer = 0;
 				timerIsActive = false;
 				GameOver ();
 			}
-
 		}
 	}
 
 	public void GameOver ()
 	{
-		gameOverText.text = "Game Over!";
-		gameOver = true;
-
-		SceneManager.LoadScene (0);
-		
+		gameOverMenu.enabled = true;
 	}
-
 }
