@@ -1020,6 +1020,7 @@ MonoBehaviour:
   timerText: {fileID: 195797662}
   myTimer: 60
   gameOverMenu: {fileID: 298760519}
+  cameraControl: {fileID: 1723868358}
 --- !u!114 &195797662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1462,7 +1463,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e11fe028da0c2403dbe3c03c78ad35d6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  gameOverMenu: {fileID: 298760519}
   quitButton: {fileID: 1901261341}
   playAgainButton: {fileID: 1587797888}
 --- !u!114 &298760517

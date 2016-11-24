@@ -8,13 +8,15 @@ public class TimerScript : MonoBehaviour
 	public Text timerText;
 	public float myTimer = 100; 
 	private bool timerIsActive = true;
-	//private GameOverScript over;
+	//private CameraControl camera;
 	public Canvas gameOverMenu;
+	//public GameObject camera;
 
 	void Start()
 	{
 		timerText = GetComponent<Text> ();
-		//GameOverScript over = GetComponent<GameOverScript>();
+		gameOverMenu.enabled = false;
+		GetComponent<CameraControl> ();
 	}
 
 	void Update()
@@ -32,8 +34,11 @@ public class TimerScript : MonoBehaviour
 		}
 	}
 
+	public CameraControl cameraControl;
+
 	public void GameOver ()
 	{
 		gameOverMenu.enabled = true;
+		cameraControl.enabled = false; 
 	}
 }
