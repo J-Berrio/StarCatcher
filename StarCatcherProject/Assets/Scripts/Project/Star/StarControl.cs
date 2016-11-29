@@ -10,12 +10,12 @@ public class StarControl : MonoBehaviour
 
 	private Vector3 forceVector;
 	private Vector3 torqueVector;
-	private Animator anims;
+	//private Animator anims;
 	private Rigidbody rigid;
 
 	void Start()
 	{
-		anims = GetComponent<Animator>();
+		//anims = GetComponent<Animator>();
 		rigid = GetComponent<Rigidbody>();
 		StartCoroutine(RunRandomForce());
 	}
@@ -35,8 +35,8 @@ public class StarControl : MonoBehaviour
 
 	public void Deactivate()
 	{
-		gameObject.SetActive(false);
-		anims.SetBool("Destroy", false);
+		//gameObject.SetActive(false);
+		//anims.SetBool("Destroy", false);
 	}
 
 	void OnCollisionEnter () 
