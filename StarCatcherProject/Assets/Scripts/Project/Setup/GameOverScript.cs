@@ -11,18 +11,11 @@ public class GameOverScript : MonoBehaviour
 
 	void Start()
 	{
-		//gameOverMenu = gameOverMenu.GetComponent<Canvas> ();
 		quitButton = quitButton.GetComponent<Button> ();
 		playAgainButton = playAgainButton.GetComponent<Button> ();
 
-
 	}
-
-	public void GameOver ()
-	{
-		//gameOverMenu.enabled = true;
-	}
-
+		
 	public void QuitPress ()
 	{
 		SceneManager.LoadScene (1);
