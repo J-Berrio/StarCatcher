@@ -30,9 +30,9 @@ public class StarStuff : MonoBehaviour
 			yield return new WaitForSeconds(spawnFrequency);
 		}
 	}
+
 	void Start () 
 	{
 		StartCoroutine(SpawnStars());
 	}
-
 }
