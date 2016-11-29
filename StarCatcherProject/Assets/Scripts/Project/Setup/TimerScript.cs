@@ -17,6 +17,7 @@ public class TimerScript : MonoBehaviour
 		timerText = GetComponent<Text> ();
 		gameOverMenu.enabled = false;
 		GetComponent<CameraControl> ();
+		GetComponent<StarStuff> ();
 	}
 
 	void Update()
@@ -35,10 +36,12 @@ public class TimerScript : MonoBehaviour
 	}
 
 	public CameraControl cameraControl;
+	public StarStuff starStuff;
 
 	public void GameOver ()
 	{
 		gameOverMenu.enabled = true;
 		cameraControl.enabled = false; 
+		starStuff.StopSpawn ();
 	}
 }

@@ -35,4 +35,9 @@ public class StarStuff : MonoBehaviour
 	{
 		StartCoroutine(SpawnStars());
 	}
+
+	public void StopSpawn()
+	{
+		canSpawnStars = false;
+	}
 }

@@ -12,18 +12,18 @@ public class WolfAttack : MonoBehaviour
 		//SetScoreText();
 	}
 
-	void OnTriggerEnter()
-	{
-		Statics.count = Statics.count - 5;
-		if (Statics.count < 0)
-			Statics.count = 0;
-		SetScoreText();
-	}
+	//void OnTriggerEnter()
+	//{
+	//	count =count --;
+	//	if (Statics.count < 0)
+	//		Statics.count = 0;
+	//	SetScoreText();
+	//}
 
-	void SetScoreText()
-	{
-		scoreText.text = "Score: " + Statics.count.ToString();
-	}
+	//void SetScoreText()
+	//{
+	//	scoreText.text = "Score: " + Statics.count.ToString();
+	//}
 		
 	void Update()
 	{

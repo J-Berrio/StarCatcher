@@ -8,6 +8,7 @@ TagManager:
   - Land
   - Pick Up
   - Enemy
+  - Wolf
   layers:
   - Default
   - TransparentFX

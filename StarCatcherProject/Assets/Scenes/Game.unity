@@ -1121,7 +1121,7 @@ RectTransform:
   m_RootOrder: 2
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: -36, y: 12}
+  m_AnchoredPosition: {x: 257.7, y: 26.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &195797661
@@ -1139,6 +1139,7 @@ MonoBehaviour:
   myTimer: 60
   gameOverMenu: {fileID: 298760519}
   cameraControl: {fileID: 1723868358}
+  starStuff: {fileID: 1526575937}
 --- !u!114 &195797662
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2086,7 +2087,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 68
+      value: 58.5
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2114,15 +2115,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04705922
+      value: 0.055173475
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.047059238
+      value: 0.0551735
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.047059238
+      value: 0.0551735
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_Name
@@ -2172,7 +2173,7 @@ GameObject:
   - 136: {fileID: 395663961}
   m_Layer: 19
   m_Name: Wolf1
-  m_TagString: Untagged
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2491,6 +2492,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   countText: {fileID: 1493771393}
+  wolf: {fileID: 0}
 --- !u!1001 &429758490
 Prefab:
   m_ObjectHideFlags: 0
@@ -3553,10 +3555,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dac684a8fef9430c8c7d6456b6c78ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceTime: 10
-  forceDuration: 0.1
-  forceRange: 10
-  torqueRange: 2
+  forceTime: 57
+  forceDuration: 0.5
+  forceRange: 32.1
+  torqueRange: 25.6
 --- !u!135 &637807030
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -6681,11 +6683,11 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 68
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 8
+      value: 16
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalRotation.x
@@ -6709,15 +6711,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.04705924
+      value: 0.050353386
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.047059238
+      value: 0.05035338
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.047059268
+      value: 0.05035341
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_Name
@@ -7201,10 +7203,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dac684a8fef9430c8c7d6456b6c78ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceTime: 10
-  forceDuration: 0.1
-  forceRange: 10
-  torqueRange: 2
+  forceTime: 57
+  forceDuration: 0.5
+  forceRange: 32.1
+  torqueRange: 25.6
 --- !u!135 &929958594
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -7430,7 +7432,7 @@ GameObject:
   - 136: {fileID: 989938877}
   m_Layer: 19
   m_Name: Wolf3
-  m_TagString: Untagged
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8005,10 +8007,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dac684a8fef9430c8c7d6456b6c78ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceTime: 10
-  forceDuration: 0.1
-  forceRange: 10
-  torqueRange: 2
+  forceTime: 57
+  forceDuration: 0.5
+  forceRange: 32.1
+  torqueRange: 25.6
 --- !u!135 &1112384810
 SphereCollider:
   m_ObjectHideFlags: 0
@@ -8190,7 +8192,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 61
+      value: 43
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalPosition.z
@@ -8218,15 +8220,15 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.x
-      value: 0.038479175
+      value: 0.04726337
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.y
-      value: 0.038479187
+      value: 0.047263388
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.03847918
+      value: 0.04726338
       objectReference: {fileID: 0}
     - target: {fileID: 100010, guid: 7b412ae1cb4dd43ba81eedc09b6f6652, type: 3}
       propertyPath: m_Name
@@ -8351,7 +8353,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1177053460}
   m_LocalRotation: {x: 0.043619394, y: 0, z: 0, w: 0.99904823}
-  m_LocalPosition: {x: 22.3, y: 13.755187, z: -0.1}
+  m_LocalPosition: {x: 18, y: 13.755187, z: -0.1}
   m_LocalScale: {x: 1, y: 22.8, z: 10.300001}
   m_Children: []
   m_Father: {fileID: 1776161982}
@@ -8516,7 +8518,7 @@ GameObject:
   - 136: {fileID: 1214116032}
   m_Layer: 19
   m_Name: Wolf4
-  m_TagString: Untagged
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8713,7 +8715,7 @@ GameObject:
   - 136: {fileID: 1222935862}
   m_Layer: 19
   m_Name: Wolf2
-  m_TagString: Untagged
+  m_TagString: Wolf
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9329,7 +9331,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 11459116, guid: ba0e0318fa7c24de198a926f6c7c14b5, type: 2}
       propertyPath: spawnFrequency
-      value: 1
+      value: 0.52
       objectReference: {fileID: 0}
     - target: {fileID: 190422, guid: ba0e0318fa7c24de198a926f6c7c14b5, type: 2}
       propertyPath: m_Name
@@ -9858,7 +9860,7 @@ RectTransform:
   m_RootOrder: 1
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 6, y: 12}
+  m_AnchoredPosition: {x: 13.24, y: 26.3}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0, y: 0}
 --- !u!114 &1493771393
@@ -9916,6 +9918,12 @@ MeshCollider:
   serializedVersion: 2
   m_Convex: 0
   m_Mesh: {fileID: 4300000, guid: 2ffca278ce2544e498dfd16dd693b1a1, type: 3}
+--- !u!114 &1526575937 stripped
+MonoBehaviour:
+  m_PrefabParentObject: {fileID: 11459116, guid: ba0e0318fa7c24de198a926f6c7c14b5,
+    type: 2}
+  m_PrefabInternal: {fileID: 1313550295}
+  m_Script: {fileID: 11500000, guid: 95dd4a4d1d9994b3cb311fe836b268d7, type: 3}
 --- !u!1 &1542616818
 GameObject:
   m_ObjectHideFlags: 0
@@ -12139,10 +12147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5dac684a8fef9430c8c7d6456b6c78ba, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  forceTime: 10
-  forceDuration: 0.1
-  forceRange: 10
-  torqueRange: 2
+  forceTime: 57
+  forceDuration: 0.5
+  forceRange: 32.1
+  torqueRange: 25.6
 --- !u!135 &1691940893
 SphereCollider:
   m_ObjectHideFlags: 0
