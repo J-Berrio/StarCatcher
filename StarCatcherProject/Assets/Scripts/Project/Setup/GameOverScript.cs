@@ -5,7 +5,6 @@ using UnityEngine.UI;
 
 public class GameOverScript : MonoBehaviour 
 {
-	
 	public Button quitButton;
 	public Button playAgainButton;
 

@@ -8,9 +8,7 @@ public class TimerScript : MonoBehaviour
 	public Text timerText;
 	public float myTimer = 100; 
 	private bool timerIsActive = true;
-	//private CameraControl camera;
 	public Canvas gameOverMenu;
-	//public GameObject camera;
 
 	void Start()
 	{
@@ -18,6 +16,7 @@ public class TimerScript : MonoBehaviour
 		gameOverMenu.enabled = false;
 		GetComponent<CameraControl> ();
 		GetComponent<StarStuff> ();
+		GetComponent<Boundary> ();
 	}
 
 	void Update()
@@ -26,6 +25,7 @@ public class TimerScript : MonoBehaviour
 		{
 			myTimer -= Time.deltaTime;
 			timerText.text = "Time Left: " + myTimer.ToString ("f0");
+
 			if (myTimer < 0) 
 			{
 				myTimer = 0;
@@ -37,11 +37,15 @@ public class TimerScript : MonoBehaviour
 
 	public CameraControl cameraControl;
 	public StarStuff starStuff;
+	public StarStuff secondSpawner;
+	public Boundary boundary;
 
 	public void GameOver ()
 	{
 		gameOverMenu.enabled = true;
 		cameraControl.enabled = false; 
 		starStuff.StopSpawn ();
+		secondSpawner.StopSpawn ();
+		boundary.enabled = false;
 	}
 }
