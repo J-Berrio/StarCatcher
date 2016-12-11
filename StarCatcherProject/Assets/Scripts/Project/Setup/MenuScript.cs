@@ -9,12 +9,16 @@ public class MenuScript : MonoBehaviour
 	public Button startText;
 	public Button exitText;
 
+
+
+
 	void Start()
 	{
 		quitMenu = quitMenu.GetComponent<Canvas> (); 
 		startText = startText.GetComponent<Button> ();
 		exitText = exitText.GetComponent<Button> ();
 		quitMenu.enabled = false;
+
 	}
 
 	public void ExitPress()
@@ -22,6 +26,7 @@ public class MenuScript : MonoBehaviour
 		quitMenu.enabled = true;
 		startText.enabled = false;
 		exitText.enabled = false;
+
 	}
 
 	public void NoPress()

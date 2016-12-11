@@ -10,6 +10,9 @@ public class TimerScript : MonoBehaviour
 	private bool timerIsActive = true;
 	public Canvas gameOverMenu;
 
+	public AudioClip menuSound;
+	private AudioSource source { get { return GetComponent<AudioSource> (); } }
+
 	void Start()
 	{
 		timerText = GetComponent<Text> ();
@@ -17,6 +20,10 @@ public class TimerScript : MonoBehaviour
 		GetComponent<CameraControl> ();
 		GetComponent<StarStuff> ();
 		GetComponent<Boundary> ();
+
+		gameObject.AddComponent<AudioSource> ();
+		source.clip = menuSound;
+		source.playOnAwake = false;
 	}
 
 	void Update()
@@ -47,5 +54,6 @@ public class TimerScript : MonoBehaviour
 		starStuff.StopSpawn ();
 		secondSpawner.StopSpawn ();
 		boundary.enabled = false;
+		source.PlayOneShot (menuSound);
 	}
 }

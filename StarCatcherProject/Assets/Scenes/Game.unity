@@ -1203,6 +1203,7 @@ MonoBehaviour:
   timerText: {fileID: 195797662}
   myTimer: 60
   gameOverMenu: {fileID: 298760519}
+  menuSound: {fileID: 8300000, guid: 657578e4be6b64dbf9b09deada272e55, type: 3}
   cameraControl: {fileID: 1723868358}
   starStuff: {fileID: 1526575937}
   secondSpawner: {fileID: 1439160393}
@@ -2442,10 +2443,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 168
-  gravity: 19
-  jumpSpeed: 200
+  gravity: 23
+  jumpSpeed: 250
   slideDuration: 40
   slideTime: 0.1
+  sound: {fileID: 8300000, guid: 2c5292ba5cf254919a6b9e2b18e04f49, type: 3}
 --- !u!114 &424645269
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2560,6 +2562,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   countText: {fileID: 1493771393}
   wolf: {fileID: 0}
+  takeAway: {fileID: 8300000, guid: d46323e22e74e46baa241cbf48c85671, type: 3}
+  collect: {fileID: 8300000, guid: 79180f511d89441b9aa23ccae1992fe0, type: 3}
 --- !u!1001 &429758490
 Prefab:
   m_ObjectHideFlags: 0
@@ -11711,6 +11715,7 @@ GameObject:
   - 114: {fileID: 1587797889}
   - 114: {fileID: 1587797888}
   - 114: {fileID: 1587797891}
+  - 114: {fileID: 1587797892}
   m_Layer: 5
   m_Name: Replay
   m_TagString: Untagged
@@ -11840,6 +11845,18 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &1587797892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1587797886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be777374d5a454a0b8143dd975e78b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
 --- !u!4 &1591835940 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400004, guid: e2065d56257ac4237a84f9eae8476d47, type: 3}
@@ -15360,6 +15377,7 @@ GameObject:
   - 114: {fileID: 1901261339}
   - 114: {fileID: 1901261341}
   - 114: {fileID: 1901261342}
+  - 114: {fileID: 1901261343}
   m_Layer: 5
   m_Name: Quit
   m_TagString: Untagged
@@ -15489,6 +15507,18 @@ MonoBehaviour:
   m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
   m_EffectDistance: {x: 1, y: -1}
   m_UseGraphicAlpha: 1
+--- !u!114 &1901261343
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1901261337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: be777374d5a454a0b8143dd975e78b99, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sound: {fileID: 8300000, guid: 32d4b1811dda14a6cb9e059ee8ad17d2, type: 3}
 --- !u!4 &1901624793 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400000, guid: 2ffca278ce2544e498dfd16dd693b1a1, type: 3}

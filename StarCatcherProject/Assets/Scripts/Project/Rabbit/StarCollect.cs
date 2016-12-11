@@ -8,9 +8,17 @@ public class StarCollect : MonoBehaviour
 	private int count = 0;
 	public GameObject wolf;
 
+	public AudioClip takeAway;
+	public AudioClip collect;
+	private AudioSource source { get { return GetComponent<AudioSource> (); } }
+
 	void Start()
 	{
 		SetCountText ();
+		gameObject.AddComponent<AudioSource> ();
+		//source.clip = collect;
+		source.playOnAwake = false;
+
 	}
 
 	void OnTriggerEnter(Collider other) 
@@ -21,6 +29,7 @@ public class StarCollect : MonoBehaviour
 			count = count + 1;
 			SetCountText();
 			//print (count);
+			source.PlayOneShot(collect);
 		}
 
 		if (other.gameObject.CompareTag("Wolf"))
@@ -29,6 +38,7 @@ public class StarCollect : MonoBehaviour
 				if (count < 0)
 					count = 0;
 				SetCountText();
+			source.PlayOneShot (takeAway);
 		}
 	}
 

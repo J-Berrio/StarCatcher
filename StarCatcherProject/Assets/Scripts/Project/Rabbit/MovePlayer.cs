@@ -21,10 +21,17 @@ public class MovePlayer : MonoBehaviour
 	int jumpHash = Animator.StringToHash("Jump");
 	int landHash = Animator.StringToHash ("Land");
 
+	public AudioClip sound;
+	private AudioSource source { get { return GetComponent<AudioSource> (); } }
+
 	void Start ()
 	{
 		controller = GetComponent<CharacterController> ();
 		animator = GetComponent<Animator> ();
+
+		gameObject.AddComponent<AudioSource> ();
+		source.clip = sound;
+		source.playOnAwake = false;
 	}
 
 	void Update()
@@ -39,6 +46,7 @@ public class MovePlayer : MonoBehaviour
 		if (Input.GetKeyDown (KeyCode.Space))
 			{
 				animator.SetTrigger (jumpHash);
+				
 
 				if (controller.isGrounded) 
 				{
@@ -46,12 +54,14 @@ public class MovePlayer : MonoBehaviour
 					JumpCounter = 0;
 					animator.ResetTrigger (jumpHash);
 					animator.SetBool (landHash, false);
+					PlayJump ();
 				}
 
 				if (!controller.isGrounded && JumpCounter < AlowedJumps) 
 				{
 					tempPosition.y = jumpSpeed;
 					JumpCounter++;
+					PlayJump ();
 				}
 			}
 			
@@ -96,6 +106,11 @@ public class MovePlayer : MonoBehaviour
 		}
 		speed = speedTemp;
 		slideDuration = durationTemp;
+	}
+
+	void PlayJump()
+	{
+		source.PlayOneShot (sound);
 	}
 
 }
